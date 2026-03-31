@@ -7,50 +7,50 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+ 
 <div class="app">
-
+ 
   <header class="topbar">
     <h1>Sound Reference Pro</h1>
     <p>Frecuencia, fase y suma de señales</p>
   </header>
-
+ 
   <section class="controls-wrap">
+ 
     <div class="controls-grid">
-
       <div class="control-card">
         <label>Frecuencia</label>
         <input type="range" id="f1" min="20" max="2000" value="440">
         <input type="number" id="f1n" value="440">
       </div>
-
+ 
       <div class="control-card">
         <label>Fase</label>
-        <input type="range" id="phi1" min="-360" max="360" value="0">
+        <input type="range" id="phi1" min="-3600" max="3600" value="0">
         <input type="number" id="phi1n" value="0">
       </div>
-
+ 
       <div class="control-card">
         <label>Frecuencia 2</label>
         <input type="range" id="f2" min="20" max="2000" value="440">
         <input type="number" id="f2n" value="440">
       </div>
-
+ 
       <div class="control-card">
         <label>Fase 2</label>
-        <input type="range" id="phi2" min="-360" max="360" value="0">
+        <input type="range" id="phi2" min="-3600" max="3600" value="0">
         <input type="number" id="phi2n" value="0">
       </div>
-
     </div>
+ 
   </section>
-
+ 
   <section class="graph-panel">
     <canvas id="canvas"></canvas>
   </section>
-
+ 
 </div>
-
+ 
 <script src="script.js"></script>
 </body>
 </html>
